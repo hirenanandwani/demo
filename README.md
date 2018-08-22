@@ -15,6 +15,7 @@ Techstack for this application:
     JavaScript: KnockoutJS
     Continious Integration Tool : Jenkins
     Automated Deployment Platform : AWS Code Deploy with EC2
+    Testing Framework : Python unittest
     
     
   Flow of the Application :
@@ -22,13 +23,7 @@ Techstack for this application:
       
   ![alt text](http://52.74.168.111/wp-content/uploads/2016/06/devops.png)
   
-  ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3jm_BcnJO5kC3o0DXhiot3jLYAg6tRX5KipgP3I8TklVcgz-Z7g)
-  
-  
-            
-
-  
-    
+   
     
   File Description - 
   
@@ -37,6 +32,7 @@ Techstack for this application:
     FeatureRequestApp - Contains Whole Application Code
     static - Contains sub directories (1)css (2)js
     templates - HTMTL Templates
+    scripts - Contains .sh file that should be run on the tim eof deployment on AWS EC2.
     
   Files -
   
@@ -44,4 +40,9 @@ Techstack for this application:
     feature-test.py - Python file which contains test case to be tested on Jenkins Server
     views.py - Contains routes for the Flask Application
     models.py - ORM - Sqlalchmey Model for Flask Application
+    appsec.yml  - Configuration file which is read by AWS Code Deploy Agent to do before installation, installation and after
+                  installation steps and other configuration steps to be followed at EC2 instances.
+    
+    
+    
     
