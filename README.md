@@ -22,7 +22,7 @@ Techstack for this application:
   Flow of the Application :
   
       
-  ![alt text](http://52.74.168.111/wp-content/uploads/2016/06/devops.png)
+  ![alt text](https://ibb.co/j6DDdU)
   
    
     
