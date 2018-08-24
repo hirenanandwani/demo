@@ -22,7 +22,7 @@ Techstack for this application:
   Flow of the Application :
   
       
-  ![alt text](https://github.com/hirenanandwani/FeatureRequestFlask/blob/master/static/css/BriteCoreNew.jpg)
+  ![alt text](https://github.com/hirenanandwani/demo/blob/master/BriteCoreCICD.png)
   
    
     
