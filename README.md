@@ -22,7 +22,7 @@ Techstack for this application:
   Flow of the Application :
   
       
-  ![alt text](https://ibb.co/j6DDdU)
+  ![alt text](https://screenshot.net/5d2eqso)
   
    
     
