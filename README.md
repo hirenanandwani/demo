@@ -11,11 +11,12 @@ Techstack for this application:
     OS: Ubuntu 16
     Server Side Scripting: Python 2.7
     Server Framework: Flask
-    ORM: Sql-Alchemy
+    ORM: Flask-Sql-Alchemy
     JavaScript: KnockoutJS
     Continious Integration Tool : Jenkins
     Automated Deployment Platform : AWS Code Deploy with EC2
-    Testing Framework : Python unittest
+    Frontend Testing Framework - Protractor
+    Backend Testing Framework : Python unittest
     
     
   Flow of the Application :
@@ -32,7 +33,8 @@ Techstack for this application:
     FeatureRequestApp - Contains Whole Application Code
     static - Contains sub directories (1)css (2)js
     templates - HTMTL Templates
-    scripts - Contains .sh file that should be run on the tim eof deployment on AWS EC2.
+    scripts - Contains .sh file that should be run on the time of deployment on AWS EC2.
+    Protractor - protractor files for front-end testing of application (1) conf.js (2) mytest.js
     
   Files -
   
